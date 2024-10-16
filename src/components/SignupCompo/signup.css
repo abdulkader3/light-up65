@@ -1,0 +1,53 @@
+
+.login_head{
+    font-weight: 700;
+    color: #000;
+}
+.main_form label{
+    font-size: 16px;
+    font-weight: 400;
+    @apply font-poppins;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.main_form input{
+    width: 350px;
+    height: 40px;
+    /* border: 2px solid #4A6CD1 ; */
+    border-radius: 5px;
+    transition: all linear .3s;
+    padding-left: 20px;
+}
+.main_form .error{
+    font-size: 14px ;
+    font-weight: 400;
+    color: red;
+}
+.loginButton{
+    width: 350px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#0F171F ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    @apply font-poppins ;
+    color: #fff;
+    border-radius: 10px;
+}
+.passdiv{
+    position: relative;
+}
+.passdiv .eyeIcon{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.loginButton:active{
+    transform: scale(1.1);
+}

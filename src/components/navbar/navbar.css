@@ -1,0 +1,7 @@
+.nav-active {
+    @apply text-lg text-white font-medium bg-slate-400 px-3 py-2 rounded-lg flex items-center gap-2;
+  }
+  
+  .nav-inactive {
+    @apply text-lg text-white font-normal flex items-center gap-2;
+  }
